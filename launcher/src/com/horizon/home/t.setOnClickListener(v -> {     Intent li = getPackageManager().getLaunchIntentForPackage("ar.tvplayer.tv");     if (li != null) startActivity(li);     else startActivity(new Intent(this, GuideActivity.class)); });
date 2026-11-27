@@ -1116,7 +1116,7 @@ public class HomeActivity extends Activity implements SharedPreferences.OnShared
                 setHero("svc:live", "Live TV", "TV Guide", null,
                         "Channels with a full TV guide · watch here or in Nuvio", 0, null, null);
             }
-        });ct
+        });
         t.setOnClickListener(v -> {
     Intent li = getPackageManager().getLaunchIntentForPackage("ar.tvplayer.tv");
     if (li != null) startActivity(li);
