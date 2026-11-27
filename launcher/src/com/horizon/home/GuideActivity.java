@@ -67,7 +67,7 @@ public class GuideActivity extends Activity {
     }
     /** Your Live TV addon link (set during setup); empty until then. */
     static final String DEFAULT_SRC = "";
-    static final String RAW = "https://raw.githubusercontent.com/jyotiprakash101/nuvio-livetv/data/";
+    static final String RAW = "https://raw.githubusercontent.com/orlando22615-arch/nuvio-livetv/data/";
 
     static String src(Context c) { return U.prefs(c).getString(P_SRC, DEFAULT_SRC); }
 
